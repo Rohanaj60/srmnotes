@@ -1,0 +1,24 @@
+<script>
+function showSubjects(str) {
+  var xhttp;    
+  if (str == "") {
+    document.getElementById("txtHint").innerHTML = "";
+    return;
+  }
+  xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    //   document.getElementById("txtHint").value = this.responseText;
+      var subject_value = this.responseText;
+    alert (subject_value);
+    }
+  };
+  xhttp.open("GET", "subjectscombo.php?q="+str, true);
+  xhttp.send();
+}
+</script>
+ 
+
+
+
+ 
