@@ -242,7 +242,7 @@
   
     <div class="outer-wrapper">
         <div class="material-wrapper">
-            <h1>Notes for Computer Science And Engineering</h1>
+            <h1>Notes for DSS</h1>
             <div class="subject-list">
 
 <?php
