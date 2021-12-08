@@ -124,8 +124,9 @@ include 'dbconn.php';
 <body>
 <div class="wrapper">
 <div class="img-area">
-<img src="images/admin-logo-min.jpg" alt="lsls">
+<img src="images/admin.png" alt="lsls">
 
+<!-- <img src="images/admin-logo-min.jpg" alt="lsls"> -->
    </div>
 
    <div class="login-area">
