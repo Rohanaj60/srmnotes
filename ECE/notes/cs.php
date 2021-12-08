@@ -165,7 +165,7 @@ $sql = "select * from notes where subject_id = 35"; //query
 $result = mysqli_query($link, $sql); // executing query and  storing  in result
 $rowcount=mysqli_num_rows($result);
 if ($rowcount == 0){
-    echo '<h2> Not Any Subject Found </h2> ';
+    echo '<h2> No Notes Found </h2> ';
 
 }
 else {

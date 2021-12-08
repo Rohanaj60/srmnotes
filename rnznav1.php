@@ -88,7 +88,7 @@
 <ul class=list-menu>
     <div class="logo">
         <div class="logo-img">
-            <img src="../../images/heropng.png" alt="hero-logo">
+            <img src="images/heropng.png" alt="hero-logo">
 
         </div>
         <div class="logo-name">
@@ -98,12 +98,12 @@
     </div>
 
     <?php
-$rootPath = dirname(__FILE__)
+
     ?>
-    <li><a href="../../index.php">Home</a></li>
-    <li><a href="../../aboutus.php">About US</a></li>
-    <li><a href="../../contactus.php">Contact US</a></li>
-    <li><a href="../../login.php">Admin</a></li>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="aboutus.php">About US</a></li>
+    <li><a href="contactus.php">Contact US</a></li>
+    <li><a href="login.php">Admin</a></li>
 </ul>
 </div>   
 </body>
