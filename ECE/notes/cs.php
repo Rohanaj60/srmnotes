@@ -258,27 +258,9 @@
 </head>
 
 <body>
-    <div class="nav-menu">
-
-        <ul class=list-menu>
-            <div class="logo">
-                <div class="logo-img">
-                    <img src="../../images/heropng.png" alt="hero-logo">
-
-                </div>
-                <div class="logo-name">
-                    <h1>srmnotes</h1>
-
-                </div>
-            </div>
-
-            
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../aboutus.php">About US</a></li>
-            <li><a href="../../contactus.php">Contact US</a></li>
-            <li><a href="../../login.php">Admin</a></li>
-
-        </ul>
+<?php
+include '../../rnznav.php';
+?>
     </div>
 
   
